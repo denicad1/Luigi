@@ -1,0 +1,19 @@
+.navbar {
+  font-family: "Poppins", sans-serif;
+}
+
+.active {
+  color: #c1121f !important;
+}
+
+.carousel .carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
