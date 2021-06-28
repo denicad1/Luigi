@@ -7,6 +7,7 @@
 }
 
 .carousel .carousel-item {
+  overflow-x: hidden;
   height: 100vh;
 }
 
@@ -29,7 +30,7 @@
 
 .header__logo {
   position: absolute;
-  top: 100%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 13;
@@ -37,5 +38,22 @@
 
 .header__logo img {
   width: 30rem;
+}
+
+.Main__text--bg-green {
+  background-color: #018e42;
+}
+
+.main__text {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+footer {
+  background-color: #003049;
+}
+
+.list__hours--size {
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
