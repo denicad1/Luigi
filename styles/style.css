@@ -56,4 +56,15 @@ footer {
 .list__hours--size {
   font-size: 1.5rem;
 }
+
+.header__location--BG {
+  background-image: url("/images/pizzaPlace.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.vh-80 {
+  height: 80vh;
+}
 /*# sourceMappingURL=style.css.map */
