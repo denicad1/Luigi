@@ -25,16 +25,16 @@
 		<link rel="stylesheet" href="../styles/style.css" />
 		<title>Home</title>
 	</head>
-	<body>
+	<body class="bg-light">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
 			<div class="container-fluid">
 				<img
 					src="../images/pizza8-removebg-preview.png"
 					alt=""
-					class="navbar-brand p-0"
+					class="navbar-brand p-0 m-0"
 				/>
 				<button
-					class="navbar-toggler"
+					class="navbar-toggler p-0 p-sm-1"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarSupportedContent"
@@ -68,7 +68,60 @@
 			</div>
 		</nav>
 		<header class=""></header>
-		<main class=""></main>
+		<div class="container-fluid Main__text--bg-green">
+			<main
+				class="
+					container
+					bg-light
+					d-flex
+					flex-lg-row
+					justify-content-around
+					mt-5
+				"
+			>
+				<form class="border border-3 p-4 m-4 rounded bord--color">
+					<div class="fs-3">
+						Want to get in touch? fill out the form and we will get back to you
+						as soon as possible!
+					</div>
+					<div class="mb-3">
+						<label for="exampleInputEmail1" class="form-label"
+							>Email address</label
+						>
+						<input
+							type="email"
+							class="form-control"
+							id="exampleInputEmail1"
+							aria-describedby="emailHelp"
+						/>
+						<div id="emailHelp" class="form-text">
+							We'll never share your email with anyone else.
+						</div>
+					</div>
+					<div class="mb-3">
+						<label for="nameInput" class="form-label">Name</label>
+						<input type="text" class="form-control" id="nameInput" />
+					</div>
+					<div class="mb-3">
+						<label
+							for="textAreaInput
+						"
+							class="form-label"
+							>Leave a Brief Message :
+						</label>
+						<textarea
+							class="form-control"
+							id="textAreaInput
+							"
+							rows="3"
+						></textarea>
+					</div>
+
+					<button type="submit" class="btn btn-color">Submit</button>
+					<button type="reset" class="btn btn-color">Reset</button>
+				</form>
+			</main>
+		</div>
 		<footer
 			class="
 				d-flex

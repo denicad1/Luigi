@@ -58,14 +58,14 @@ footer {
 }
 
 .header__location--BG {
-  background-image: url("/images/pizzaPlace.jpg");
+  background-image: url("../images/pizzaPlace.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .header__menu--BG {
-  background-image: linear-gradient(#c1121f, rgba(255, 255, 255, 0.1)), url("/images/menuHeader.jpg");
+  background-image: linear-gradient(#c1121f, rgba(255, 255, 255, 0.1)), url("../images/menuHeader.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,5 +79,90 @@ footer {
   width: 100%;
   height: 15vw;
   object-fit: cover;
+}
+
+.popUp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.popUp__content {
+  width: 75%;
+  height: 50vh;
+  background-color: white;
+  box-shadow: 0 2rem 4rem black;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  hyphens: auto;
+}
+
+.body__popUp {
+  position: relative;
+}
+
+#grubBtn {
+  background-color: #018e42;
+  color: white;
+}
+
+#popUpBtn {
+  background-color: #018e42;
+  color: white;
+}
+
+.btn-color {
+  background-color: #018e42;
+  color: white;
+}
+
+#popUpClose {
+  position: absolute;
+  top: 2rem;
+  right: 2.5rem;
+  cursor: pointer;
+  color: #018e42;
+}
+
+@media only screen and (max-width: 600px) {
+  .header__logo {
+    display: none;
+  }
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  max-width: 700px;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.bord--color {
+  border-color: #018e42 !important;
+}
+
+.history__BG {
+  background-image: linear-gradient(#c1121f, rgba(255, 255, 255, 0.1)), url("../images/Pizza_Dough.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=style.css.map */

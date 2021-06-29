@@ -21,20 +21,43 @@
 			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
 			rel="stylesheet"
 		/>
-		<script src="scripts/script.js"></script>
+		<script src="../scripts/script.js"></script>
 		<link rel="stylesheet" href="../styles/style.css" />
 		<title>Home</title>
 	</head>
-	<body class="bg-light">
+	<body class="bg-light body__popUp">
+		<div class="popUp">
+			<div
+				class="
+					popUp__content
+					d-flex
+					flex-column
+					align-items-center
+					justify-content-center
+				"
+			>
+				<div id="popUpClose" class="fs-1">&times;</div>
+				<h1>Online Ordering Unavailable</h1>
+				<p class="fs-3">
+					Please use grubhub to order. You can click the button below to take
+					you to their website.
+				</p>
+				<a href="https://www.grubhub.com/" target="_blank"
+					><button type="button" class="btn fs-3" id="grubBtn">
+						Take Me to Grubhub!
+					</button></a
+				>
+			</div>
+		</div>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
 			<div class="container-fluid">
 				<img
 					src="../images/pizza8-removebg-preview.png"
 					alt=""
-					class="navbar-brand p-0"
+					class="navbar-brand p-0 m-0"
 				/>
 				<button
-					class="navbar-toggler"
+					class="navbar-toggler p-0 p-sm-1"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarSupportedContent"
@@ -79,8 +102,12 @@
 			<p class="display-1 fw-bold">Menu</p>
 		</header>
 		<div class="container-fluid Main__text--bg-green">
-			<div class="container bg-light pb-5">
-				<button type="button" class="btn btn-primary d-block mx-auto my-5">
+			<div class="container bg-light pb-5 mt-5">
+				<button
+					type="button"
+					class="btn d-block mx-auto my-5 fs-3 text-white"
+					id="popUpBtn"
+				>
 					Order Now!
 				</button>
 			</div>
@@ -96,7 +123,7 @@
 			>
 				<div class="card m-3" style="width: 18rem">
 					<img
-						src="/images/chickyParm.jpg"
+						src="../images/chickyParm.jpg"
 						alt=""
 						class="card-img-top img-responsive"
 					/>
@@ -107,7 +134,7 @@
 				</div>
 				<div class="card m-3" style="width: 18rem">
 					<img
-						src="/images/baked-buffalo-wings-11.jpg"
+						src="../images/baked-buffalo-wings-11.jpg"
 						alt=""
 						class="card-img-top"
 					/>
@@ -118,7 +145,7 @@
 				</div>
 				<div class="card m-3" style="width: 18rem">
 					<img
-						src="/images/cheesesteaks-guide-fb.jpg"
+						src="../images/cheesesteaks-guide-fb.jpg"
 						alt=""
 						class="card-img-top img-responsive"
 					/>
@@ -129,7 +156,7 @@
 				</div>
 				<div class="card m-3" style="width: 18rem">
 					<img
-						src="/images/pizzaMenu.jpg"
+						src="../images/pizzaMenu.jpg"
 						alt=""
 						class="card-img-top img-responsive"
 					/>
@@ -142,7 +169,7 @@
 				</div>
 				<div class="card m-3" style="width: 18rem">
 					<img
-						src="/images/onionRings.jpg"
+						src="../images/onionRings.jpg"
 						alt=""
 						class="card-img-top img-responsive"
 					/>
